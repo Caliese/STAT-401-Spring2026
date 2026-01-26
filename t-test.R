@@ -10,6 +10,14 @@ plot(pts,dt(pts,df=9),col='red',type='l')
 lines(density(x), col='green')
 lines(density(y), col='blue')
 
+#Add a title to the plot using 'main' argument
+#Add labels to X and Y axis, and label names should be for X add 'sequence', and Y add 'Density of X and Y'
+#Create dash line instead of continuous line
+pts = seq(-4.5,4.5,length=100)
+plot(pts,dt(pts,df=9),col='red',type='l', main='t test', xlab='Sequence', ylab='Density of X and Y', lty=2)
+lines(density(x), col='green')
+lines(density(y), col='blue')
+
 #Apply the function for t test
 ttest = t.test(x,y) 
 ttest
