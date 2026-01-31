@@ -1,4 +1,4 @@
-# Author: Forrester, Date:1/23/2026, Purpose: T-Test Assignment
+# Author: Beckford, Date:1/23/2026, Purpose: T-Test Assignment
 
 
 #Generate Dummy Data
@@ -27,4 +27,5 @@ alternative hypothesis: true difference in means is not equal to 0
  -0.01859644  0.15501691
 sample estimates:
   mean of x   mean of y 
+
  0.04776645 -0.02044379 
