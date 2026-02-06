@@ -31,3 +31,14 @@ sample estimates:
 
 #negative means indirect relation
 #strong inverse relationship
+
+
+#set the working directory
+setwd("C:/Users/calie/OneDrive - Claflin University/Documents")
+
+#Read data.csv file in R
+data <- read.csv("data.csv", header= TRUE)
+
+#generate plot
+ggscatter(data, x = "ClassA", y = "ClassB", add = "reg.line", conf.int = TRUE, cor.coef = TRUE, cor.method = "pearson", xlab = "Miles/(US) gallon", ylab = "Weight (1000 lbs)")
+
